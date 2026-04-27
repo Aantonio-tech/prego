@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c2c2c, #4b4b4b);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d4af37; /* dourado metálico */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container geral */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Card de pregos */
+.prego-card {
+    background: #3a3a3a;
+    border-left: 5px solid #d4af37;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+.prego-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.7);
+}
+
+/* Texto dentro do card */
+.prego-card p {
+    margin: 8px 0;
+}
+
+/* Botão */
+button {
+    background: #d4af37;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover botão */
+button:hover {
+    background: #b8962e;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ccc;
+}
