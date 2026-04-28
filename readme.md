@@ -1,10 +1,15 @@
 nomes dos integrantes:
-antonio
-kedson
-joão
-carlos R
-carlos K
-raphael azzi
+//antonio
+
+//kedson
+
+//joão
+
+//carlos R
+
+//carlos K
+
+//raphael azzi
 
 o que é o site: o site é sobre pregos de todos os tipos e sobre vendas como fosse um mercado de materias mais apenas de um tipo de material 
 
